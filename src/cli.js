@@ -1,8 +1,11 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync'
 
-export default () => {
-  const name = readlineSync.question('May I have your name? ')
-  console.log(`Hello, ${name}!`)
+const getName = () => {
+  const name = readlineSync.question('Welcome to the Brain Games! \nMay I have your name? ')
   return name
 }
-
+export default () => {
+  console.log(`Hello, ${mainName}!`)
+}
+export const mainName = getName()
