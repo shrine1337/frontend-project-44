@@ -12,7 +12,7 @@ export default () => {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min
     console.log(`Question: ${randomNumber}`)
     const firstAnswer = readlineSync.question(`Your answer: `)
-    if(randomNumber % 2 === 0){
+    if (randomNumber % 2 === 0) {
       correctAnswer = 'yes'
     }
     else correctAnswer = 'no'
@@ -23,8 +23,8 @@ export default () => {
       console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${name}`)
       break
     }
-    if(i === 2){
+    if (i === 2) {
       console.log(`Congratulations, ${name}`)
     }
-  }       
+  }
 }

@@ -2,8 +2,8 @@
 import getName from '../src/cli.js'
 import even from '../src/even.js'
 
-export function game () {
-getName()
-even()
+export function game() {
+  getName()
+  even()
 }
 game()
