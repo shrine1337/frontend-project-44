@@ -6,7 +6,7 @@ export default () => {
     const min = 0
     const max = 67
     const chars = ['+', '-', '*']
-    let correctAnswer 
+    let correctAnswer
     console.log('What is the result of the expression?')
     for (let i = 0; i < 3; i++) {
         const randomNumber1 = Math.floor(Math.random() * (max - min + 1)) + min
@@ -16,12 +16,22 @@ export default () => {
         const firstAnswer = readlineSync.question(`Your answer: `)
         if (randomChar === '*') {
             correctAnswer = randomNumber1 * randomNumber2
-            console.log(correctAnswer)
         }
-       /*  else {
-            console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${name}`)
-            break
-        } */
+
+        if (randomChar === '-') {
+            correctAnswer = randomNumber1 - randomNumber2
+        }
+
+        if (randomChar === '+') {
+            correctAnswer = randomNumber1 + randomNumber2
+        }
+        if(correctAnswer === firstAnswer){
+            console.log('Correct!')
+        }
+        if(correctAnswer !== firstAnswer){
+            console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '175'. \nLet's try again, ${name}`)
+        }
+
         if (i === 2) {
             console.log(`Congratulations, ${name}`)
         }
