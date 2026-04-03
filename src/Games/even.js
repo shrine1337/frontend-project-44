@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync'
-import { mainName } from '../src/cli.js'
+import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
@@ -20,7 +20,7 @@ export default () => {
       console.log('Correct!')
     }
     else {
-      console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${name}`)
+      console.log(`'yes' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, ${name}!`)
       break
     }
     if (i === 2) {

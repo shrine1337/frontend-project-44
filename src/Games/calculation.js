@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync'
-import { mainName } from '../src/cli.js'
+import { mainName } from '../cli.js'
 
 export default () => {
   const name = mainName
@@ -30,6 +30,7 @@ export default () => {
     }
     if (correctAnswer !== firstAnswer) {
       console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '175'. \nLet's try again, ${name}`)
+      break
     }
 
     if (i === 2) {

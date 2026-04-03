@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import braingcd from '../src/gcd.js'
+import braingcd from '../src/Games/gcd.js'
 
 function god() {
   braingcd()
