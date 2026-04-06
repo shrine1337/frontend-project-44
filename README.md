@@ -12,6 +12,17 @@ ___
 ___
 #### Игра: brain-progression
 [![asciicast](https://asciinema.org/a/KCDmRk8Bw6P4iWR4.svg)](https://asciinema.org/a/KCDmRk8Bw6P4iWR4)
+<<<<<<< HEAD
 ___
 #### Игра: brain-prime
 [![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2)
+=======
+
+Игра: brain-gcd
+[![asciicast](https://asciinema.org/a/I2au6btGjv6z4sVo.svg)](https://asciinema.org/a/I2au6btGjv6z4sVo)
+
+Игра: brain-prime
+[![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2);
+
+Congratulations!
+>>>>>>> 0cf74c83a0c912fcbf4aab95e25a25460f2ce1e0
