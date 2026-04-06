@@ -28,7 +28,7 @@ export default () => {
     if (correctAnswer === firstAnswer) {
       console.log('Correct!')
     }
-    if (correctAnswer !== firstAnswer) {
+    else {
       console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${name}!`)
       break
     }
