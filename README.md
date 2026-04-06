@@ -10,5 +10,8 @@
 Игра: brain-progression
 [![asciicast](https://asciinema.org/a/KCDmRk8Bw6P4iWR4.svg)](https://asciinema.org/a/KCDmRk8Bw6P4iWR4)
 
-Игра: brain-even
-ds
+Игра: brain-gcd
+[![asciicast](https://asciinema.org/a/I2au6btGjv6z4sVo.svg)](https://asciinema.org/a/I2au6btGjv6z4sVo)
+
+Игра: brain-prime
+[![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2)
