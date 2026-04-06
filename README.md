@@ -14,6 +14,6 @@
 [![asciicast](https://asciinema.org/a/I2au6btGjv6z4sVo.svg)](https://asciinema.org/a/I2au6btGjv6z4sVo)
 
 Игра: brain-prime
-[![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2)
+[![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2);
 
 Congratulations!
