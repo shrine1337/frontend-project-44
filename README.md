@@ -1,7 +1,5 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/M0rdWinix/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/M0rdWinix/frontend-project-44/actions)
-
-
 ## Demonstration of how games work
 #### Игра: brain-even
 [![asciicast](https://asciinema.org/a/h3Da69K6ItJ5AQOA.svg)](https://asciinema.org/a/h3Da69K6ItJ5AQOA)
