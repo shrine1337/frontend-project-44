@@ -19,7 +19,7 @@ export default () => {
     let correctAnswer = arr[hide]
     arr[hide] = '..'
     console.log(`Ответ: ${correctAnswer}`)
-    console.log(`Question: ${arr}`)
+    console.log(`Question: ${arr.join(' ')}`)
     const firstAnswer = readlineSync.question(`Your answer: `)
     if (Number(firstAnswer) === correctAnswer) {
       console.log('Correct!')
