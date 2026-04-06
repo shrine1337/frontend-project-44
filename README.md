@@ -15,3 +15,5 @@
 
 Игра: brain-prime
 [![asciicast](https://asciinema.org/a/ZuJOO1SbGfd8dpz2.svg)](https://asciinema.org/a/ZuJOO1SbGfd8dpz2)
+
+Congratulations!
