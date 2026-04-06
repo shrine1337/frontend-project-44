@@ -29,12 +29,12 @@ export default () => {
       console.log('Correct!')
     }
     if (correctAnswer !== firstAnswer) {
-      console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '175'. \nLet's try again, ${name}`)
+      console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '175'. \nLet's try again, ${name}!`)
       break
     }
 
     if (i === 2) {
-      console.log(`Congratulations, ${name}`)
+      console.log(`Congratulations, ${name}!`)
     }
   }
 }
