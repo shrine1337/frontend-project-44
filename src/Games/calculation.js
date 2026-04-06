@@ -25,7 +25,7 @@ export default () => {
     if (randomChar === '+') {
       correctAnswer = randomNumber1 + randomNumber2
     }
-    if (correctAnswer === firstAnswer) {
+    if (firstAnswer === String(correctAnswer)) {
       console.log('Correct!')
     }
     else {
