@@ -2,7 +2,7 @@ import { mainName } from './cli.js'
 import readlineSync from 'readline-sync'
 
 export default (question, correctAnswer, i) => {
-const name = mainName
+  const name = mainName
   console.log(`Question: ${question}`)
   const answer = readlineSync.question('Your answer: ')
   if (answer === correctAnswer) {
