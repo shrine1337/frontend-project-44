@@ -5,10 +5,10 @@ export default () => {
   const name = mainName
   const min = 0
   const max = 100
-  let correctAnswer = 'yes'
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
   for (let i = 0; i < 3; i++) {
     let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min
+    let correctAnswer = 'yes'
     if (randomNumber !== 2) {
       if (randomNumber < 2 || randomNumber % 2 === 0) {
         correctAnswer = 'no'
