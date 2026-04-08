@@ -1,5 +1,6 @@
-import readlineSync from 'readline-sync'
+
 import { mainName } from '../cli.js'
+import question from '../brain.js'
 
 export default () => {
   let name = mainName
@@ -18,19 +19,8 @@ export default () => {
     }
     let correctAnswer = arr[hide]
     arr[hide] = '..'
-    console.log(`Ответ: ${correctAnswer}`)
-    console.log(`Question: ${arr.join(' ')}`)
-    const firstAnswer = readlineSync.question(`Your answer: `)
-    if (Number(firstAnswer) === correctAnswer) {
-      console.log('Correct!')
-    }
-    else {
-      console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${name}!`)
-      break
-    }
-
-    if (i === 2) {
-      console.log(`Congratulations, ${name}!`)
+     if (question(`${arr.join(' ')}`, String(correctAnswer), i, name) === false) {
+      return
     }
   }
 }

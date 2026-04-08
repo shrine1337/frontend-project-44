@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync'
+import question from '../brain.js'
 import { mainName } from '../cli.js'
 
 export default () => {
@@ -12,8 +12,6 @@ export default () => {
     const randomNumber1 = Math.floor(Math.random() * (max - min + 1)) + min
     const randomNumber2 = Math.floor(Math.random() * (max - min + 1)) + min
     const randomChar = chars[Math.floor(Math.random() * chars.length)]
-    console.log(`Question: ${randomNumber1} ${randomChar} ${randomNumber2}`)
-    const firstAnswer = readlineSync.question(`Your answer: `)
     if (randomChar === '*') {
       correctAnswer = randomNumber1 * randomNumber2
     }
@@ -25,16 +23,8 @@ export default () => {
     if (randomChar === '+') {
       correctAnswer = randomNumber1 + randomNumber2
     }
-    if (firstAnswer === String(correctAnswer)) {
-      console.log('Correct!')
-    }
-    else {
-      console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${name}!`)
-      break
-    }
-
-    if (i === 2) {
-      console.log(`Congratulations, ${name}!`)
+    if (question(`${randomNumber1} ${randomChar} ${randomNumber2}`, String(correctAnswer), i, name) === false) {
+      return
     }
   }
 }
