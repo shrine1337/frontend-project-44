@@ -1,4 +1,3 @@
-
 import { mainName } from '../cli.js'
 import question from '../brain.js'
 
@@ -19,7 +18,7 @@ export default () => {
     }
     let correctAnswer = arr[hide]
     arr[hide] = '..'
-     if (question(`${arr.join(' ')}`, String(correctAnswer), i, name) === false) {
+    if (question(`${arr.join(' ')}`, String(correctAnswer), i, name) === false) {
       return
     }
   }

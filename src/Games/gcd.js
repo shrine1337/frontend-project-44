@@ -21,6 +21,6 @@ export default () => {
     correctAnswer = randomNumber1
     if (question(`${randomNumber1} ${randomNumber2}`, String(correctAnswer), i, name) === false) {
       return
-    } 
+    }
   }
 }
